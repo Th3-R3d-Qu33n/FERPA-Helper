@@ -9,6 +9,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="FERPA Helper">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css" />
   <style>
     :root {
       --primary-color: #003366;
@@ -37,6 +38,7 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      padding-bottom: 60px; /* make room for thumbwheel */
     }
 
     header {
@@ -106,6 +108,31 @@
       font-size: 1.2rem;
     }
 
+    #thumbwheel {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--background);
+      border-top: 1px solid #ccc;
+      display: flex;
+      overflow-x: auto;
+      gap: 0.5rem;
+      padding: 0.5rem;
+      z-index: 999;
+    }
+
+    #thumbwheel button {
+      padding: 0.25rem 0.75rem;
+      font-size: 0.9rem;
+      background: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
     footer {
       background: #eee;
       padding: 1rem;
@@ -172,6 +199,10 @@
       <!-- Rendered FERPA sections or search results -->
     </div>
   </main>
+
+  <div id="thumbwheel">
+    <!-- Populated dynamically in app.js -->
+  </div>
 
   <footer>
     <button onclick="showBookmarks()">📌 View Bookmarks</button>
