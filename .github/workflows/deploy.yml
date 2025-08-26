@@ -20,11 +20,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Debug files
+        run: |
+          pwd
+          ls -la
+          echo "----- public -----"
+          ls -la public || true
+          echo "----- src -----"
+          ls -la src || true
+          echo "----- show index.html (first 20 lines) -----"
+          sed -n '1,20p' index.html || true
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          # (no cache: 'npm' to avoid lockfile requirement)
 
       - name: Install deps
         run: npm install
