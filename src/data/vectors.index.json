@@ -1,0 +1,8 @@
+{
+  "dim": 384,
+  "model": "hashing-tfidf-384",
+  "num_chunks": 1,
+  "order": [
+    "usc-20-1232g-a-1-A#1"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "Family Educational Rights and Privacy Act",
+    "citation": "20 U.S.C. § 1232g",
+    "version": "demo"
+  },
+  "nodes": [
+    {
+      "id": "usc-20-1232g",
+      "type": "section",
+      "label": "§ 1232g",
+      "heading": "Family educational and privacy rights",
+      "text": "",
+      "children": [
+        "usc-20-1232g-a"
+      ],
+      "path": [
+        "§1232g"
+      ]
+    },
+    {
+      "id": "usc-20-1232g-a",
+      "type": "subsection",
+      "label": "(a)",
+      "heading": "Conditions for availability of funds ...",
+      "text": "",
+      "children": [
+        "usc-20-1232g-a-1"
+      ],
+      "parents": [
+        "usc-20-1232g"
+      ],
+      "path": [
+        "§1232g",
+        "(a)"
+      ]
+    },
+    {
+      "id": "usc-20-1232g-a-1",
+      "type": "paragraph",
+      "label": "(1)",
+      "heading": "",
+      "text": "",
+      "children": [
+        "usc-20-1232g-a-1-A"
+      ],
+      "parents": [
+        "usc-20-1232g-a"
+      ],
+      "path": [
+        "§1232g",
+        "(a)",
+        "(1)"
+      ]
+    },
+    {
+      "id": "usc-20-1232g-a-1-A",
+      "type": "subparagraph",
+      "label": "(A)",
+      "heading": "",
+      "text": "No funds shall be made available under any applicable program to any educational agency or institution ... forty-five days after the request has been made.",
+      "children": [],
+      "parents": [
+        "usc-20-1232g-a-1"
+      ],
+      "path": [
+        "§1232g",
+        "(a)",
+        "(1)",
+        "(A)"
+      ]
+    }
+  ]
+}

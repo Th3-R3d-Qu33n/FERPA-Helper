@@ -1,0 +1,19 @@
+{
+  "dim": 384,
+  "model": "hashing-tfidf-384",
+  "chunks": [
+    {
+      "chunk_id": "usc-20-1232g-a-1-A#1",
+      "node_id": "usc-20-1232g-a-1-A",
+      "text": "No funds shall be made available under any applicable program to any educational agency or institution ... forty-five days after the request has been made.",
+      "offset": 0,
+      "len": 155,
+      "breadcrumbs": "§1232g → (a) → (1) → (A)",
+      "citation": "20 U.S.C. §1232g(a)(1)(A)",
+      "labels": {
+        "label": "(A)",
+        "type": "subparagraph"
+      }
+    }
+  ]
+}
