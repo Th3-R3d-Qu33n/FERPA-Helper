@@ -1,8 +1,23 @@
 {
   "dim": 384,
   "model": "hashing-tfidf-384",
-  "num_chunks": 1,
+  "num_chunks": 16,
   "order": [
-    "usc-20-1232g-a-1-A#1"
+    "usc-20-1232g-a-1-A#1",
+    "usc-20-1232g-a-1-A#2",
+    "usc-20-1232g-a-1-B#1",
+    "usc-20-1232g-a-1-C#1",
+    "usc-20-1232g-a-1-C-i#1",
+    "usc-20-1232g-a-1-C-ii#1",
+    "usc-20-1232g-a-1-C-iii#1",
+    "usc-20-1232g-a-1-C-iii-I#1",
+    "usc-20-1232g-a-1-C-iii-II#1",
+    "usc-20-1232g-a-1-C-iii-III#1",
+    "usc-20-1232g-a-1-D#1",
+    "usc-20-1232g-a-2#1",
+    "usc-20-1232g-a-3#1",
+    "usc-20-1232g-a-4#1",
+    "usc-20-1232g-a-4-A#1",
+    "usc-20-1232g-a-4-B#1"
   ]
 }
