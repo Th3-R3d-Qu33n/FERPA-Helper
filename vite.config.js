@@ -1,4 +1,4 @@
 export default defineConfig({
-  base: "/FERPA-Helper/",
+  base: "/",
   plugins: [react()],
 });
