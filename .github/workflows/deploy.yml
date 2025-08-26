@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]   # build on every push to main
+    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -24,12 +24,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: "npm"
+          # 🔴 remove cache: 'npm' since you have no lockfile
 
       - name: Install deps
         run: npm install
 
-      - name: Build site (Vite)
+      - name: Build (Vite)
         run: npm run build
 
       - name: Upload artifact
