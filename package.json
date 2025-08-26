@@ -16,7 +16,4 @@
     "vite": "^5",
     "@vitejs/plugin-react": "^4"
   },
-  "scripts": {
-    "build": "vite build"
-  }
 }
